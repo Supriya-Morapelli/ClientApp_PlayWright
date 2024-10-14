@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "regression": "npx playwright test ClientAppPOM.spec.js --project=chromium --headed"
+    "smoke": "npx playwright test ClientAppPOM.spec.js --project=chromium --headed"
   },
   "keywords": [],
   "author": "",
